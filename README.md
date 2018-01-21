@@ -68,11 +68,17 @@ This project uses GitHub Issue Labels for classification. These labels and their
 ```
 Label                 Description 
 --------------------  ---------------------------------------------------------
-                      Issue type
+                      Area of Focus
+area:github           ..Issue or request related to GitHub
+area:chingu-x         ..Issue or request related to Chingu-X
+area:slack            ..Issue or request related to Slack
+area:voyage04         ..Issue or request related to Voyage 4
+area:voyage05         ..Issue or request related to Voyage 5
+                      Type
 type:bug              ..A defect resulting in a deviation from expected results
 type:documentation    ..A defect in documentation or need for additional clarity
 type:enhancement      ..Request for an minor enhancement
-type:feature request  ..Request for a major new feature
+type:request          ..Request for a new feature
 type:question         ..A question to the Development Team
 type:refactor         ..Request by Developer to modify how the code currently
                         accomplishes a given function.
@@ -98,14 +104,16 @@ Label                 Description
 --------------------  ---------------------------------------------------------
                       Workflow State
 state:inbox           ..Starting state for all new user issues awaiting triage.
-state:backlog         ..Issues and tasks that have been triaged, but have not yet been started.
-state:next            ..Issues and tasks that haven't been started, but are scheduled to be worked on next.
-state:in progress     ..Issues and tasks being actively worked on by the team.
-state:review          ..Issues and tasks that have been completed, but are awaiting review and PR.
-state:done            ..Issues and tasks that have been completed.
+state:backlog         ..Issues and requests that have been triaged, but have not yet been started.
+state:next            ..Issues and requests that haven't been started, but are scheduled to be worked on next.
+state:in progress     ..Issues and requests being actively worked on by the team.
+state:review          ..Issues and requests that have been completed, but are awaiting review and PR.
+state:done            ..Issues and requests that have been completed.
 ```
-Issues and tasks added by the team typically start in state:backlog and move to other states following discussion during team meetings. On the other hand, issues and tasks directly created by users start out in state:inbox until they have been triaged by the team. This makes it easier for the team to ensure that user issues and requests aren't overlooked.
+Issues and requests added by the team typically start in state:backlog and move to other states following discussion during team meetings. On the other hand, Issues and requests directly created by users start out in state:inbox until they have been triaged by the team. This makes it easier for the team to ensure that user issues and requests aren't overlooked.
 
 ## Examples
 
 The best source of examples for how issues are to be defined an labeled is the [Chingu Issue Track](https://github.com/Chingu-cohorts/issuetrack/issues).
+
+- [SAMPLE - Missing GitHub Authorization](https://github.com/Chingu-cohorts/issuetrack/issues/1)
